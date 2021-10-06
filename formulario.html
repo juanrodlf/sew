@@ -13,21 +13,22 @@
 <body>
     <h1>¡Danos tu opinión!</h1>
     <form>
-        <p><label>Nombre y apellidos: <input></label></p>
-        <p><label>Correo electrónico: <input></label></p>
-        <p><label>¿Te ha gustado la historia de Bert Bos? <input></label></p>
-        <p><label>¿Qué te ha parecido esta página web? <input></label></p>
+        <p><label>Nombre y apellidos: <input type=text></label></p>
+        <p><label>Correo electrónico: <input type=email></label></p>
+        <p><label>Fecha de nacimiento: <input type=date></label></p>
+        <p><label>¿Te ha gustado la historia de Bert Bos? <input type=text></label></p>
+        <p><label>¿Qué te ha parecido esta página web? <input type=text></label></p>
         <fieldset>
             <legend> ¿Recomendarías esta web a un amigo? </legend>
-            <p><label> <input type=radio> Sí </label></p>
-            <p><label> <input type=radio> No </label></p>
-            <p><label> <input type=radio> NS/NC </label></p>
+            <p><label> <input type=radio name="radiobut"> Sí </label></p>
+            <p><label> <input type=radio name="radiobut"> No </label></p>
+            <p><label> <input type=radio name="radiobut"> NS/NC </label></p>
         </fieldset>
         
         <p>
             <label>
-                
                 <select>
+                    <option>Puntúa la página del 0 al 10</option>
                     <option>0</option> 
                     <option>1</option> 
                     <option>2</option> 
@@ -42,6 +43,10 @@
                 </select>
             </label>
         </p>
+
+        <p><label>Acepto los términos y condiciones de privacidad: <input type=checkbox></label></p>
+
+        <p><label><input type=submit></label></p>
         
     </form>
     <footer>
