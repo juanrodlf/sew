@@ -13,21 +13,21 @@
 <body>
     <h1>¡Danos tu opinión!</h1>
     <form>
-        <p><label for="nombre">Nombre y apellidos: <input type=text></label></p>
-        <p><label for="email">Correo electrónico: <input type=email></label></p>
-        <p><label for="fecha">Fecha de nacimiento: <input type=date></label></p>
-        <p><label for="opinion">¿Te ha gustado la historia de Bert Bos? <input type=text></label></p>
-        <p><label for="consejo">¿Qué te ha parecido esta página web? <input type=text></label></p>
+        <p><label for="nombre">Nombre y apellidos: <input id="nombre" type=text></label></p>
+        <p><label for="email">Correo electrónico: <input id="email" type=email></label></p>
+        <p><label for="fecha">Fecha de nacimiento: <input id="fecha" type=date></label></p>
+        <p><label for="opinion">¿Te ha gustado la historia de Bert Bos? <input id="opinion" type=text></label></p>
+        <p><label for="consejo">¿Qué te ha parecido esta página web? <input id="consejo" type=text></label></p>
         <fieldset>
             <legend> ¿Recomendarías esta web a un amigo? </legend>
-            <p><label for="si"> <input type=radio name="radiobut"> Sí </label></p>
-            <p><label for="no"> <input type=radio name="radiobut"> No </label></p>
-            <p><label for="nsnc"> <input type=radio name="radiobut"> NS/NC </label></p>
+            <p><label for="si"> <input id="si" type=radio name="radiobut"> Sí </label></p>
+            <p><label for="no"> <input id="no" type=radio name="radiobut"> No </label></p>
+            <p><label for="nsnc"> <input id="nsnc" type=radio name="radiobut"> NS/NC </label></p>
         </fieldset>
         
         <p>
-            <label>
-                <select>
+            <label for="selection">
+                <select id="selection">
                     <option value="">Puntúa la página del 0 al 10</option>
                     <option value="0">0</option> 
                     <option value="1">1</option> 
@@ -44,7 +44,7 @@
             </label>
         </p>
 
-        <p><label>Acepto los términos y condiciones de privacidad: <input type=checkbox></label></p>
+        <p><label for="terminos">Acepto los términos y condiciones de privacidad: <input id="terminos" type=checkbox></label></p>
 
         <p><input type=submit value="Enviar"></p>
         
