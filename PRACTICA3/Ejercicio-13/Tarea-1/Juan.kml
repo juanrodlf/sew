@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="My_Style_Nacimiento"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon></IconStyle></Style>
+    <Style id="My_Style_Fallecimiento"><IconStyle><Icon><href>http://maps.google.com/mapfiles/kml/pushpin/pink-pushpin.png</href></Icon></IconStyle></Style>
+    <Placemark id="JuanRodríguezdelaFuente_nacimiento">
+      <name>
+        Juan Rodríguez de la Fuente - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 2000-03-23 en Cangas del Narcea
+Comentario: Un chico muy apuesto
+      </description>
+      <Point>
+        <coordinates>
+          -6.547817013855572,43.17434890643061,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JuanJoséRodríguezFernández_nacimiento">
+      <name>
+        Juan José Rodríguez Fernández - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1964-10-17 en Vega de Rengos, Cangas del Narcea
+Comentario: Aficionado al esquí
+      </description>
+      <Point>
+        <coordinates>
+          -6.615534022365248,43.04678337435713,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JoseMaríaRodríguezDíaz_nacimiento">
+      <name>
+        Jose María Rodríguez Díaz - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1925-10-31 en Villamayor, Ibias
+Comentario: Minero y zapatero.
+      </description>
+      <Point>
+        <coordinates>
+          -6.854484940482702,43.03280943318538,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JoseMaríaRodríguezDíaz_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Jose María Rodríguez Díaz - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 2001-09-08 en Cangas del Narcea
+Comentario: Minero y zapatero.
+      </description>
+      <Point>
+        <coordinates>
+          -6.547835627064655,43.17480151854931,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JuanRodríguezÁlvarez_nacimiento">
+      <name>
+        Juan Rodríguez Álvarez - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1899-01-25 en Caboalles de Abajo, Villablino
+Comentario: Muy dicharachero y sonriente.
+      </description>
+      <Point>
+        <coordinates>
+          -6.372877802064166,42.95220673419664,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JuanRodríguezÁlvarez_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Juan Rodríguez Álvarez - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1955-02-09 en Villamayor, Ibias
+Comentario: Muy dicharachero y sonriente.
+      </description>
+      <Point>
+        <coordinates>
+          -6.855005290665824,43.0330721368022,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="AuroraDíazNogueiro_nacimiento">
+      <name>
+        Aurora Díaz Nogueiro - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1901-03-09 en San Antolín, Ibias
+Comentario: De belleza inconmensurable.
+      </description>
+      <Point>
+        <coordinates>
+          -6.872995928708796,43.03746823564629,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="AuroraDíazNogueiro_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Aurora Díaz Nogueiro - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1961-12-15 en Villamayor, Ibias
+Comentario: De belleza inconmensurable.
+      </description>
+      <Point>
+        <coordinates>
+          -6.85471024605164,43.032483973446716,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="BalbinaFernándezÁlvarez_nacimiento">
+      <name>
+        Balbina Fernández Álvarez - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1929-11-19 en Villarcebollín, Ibias
+Comentario: Luchadora y trabajadora empedernida.
+      </description>
+      <Point>
+        <coordinates>
+          -6.845094424701311,43.023439015284964,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="BalbinaFernándezÁlvarez_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Balbina Fernández Álvarez - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 2018-01-13 en Cangas del Narcea
+Comentario: Luchadora y trabajadora empedernida.
+      </description>
+      <Point>
+        <coordinates>
+          -6.541088768760746,43.16562441332177,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="AquilinoFernándezFernández_nacimiento">
+      <name>
+        Aquilino Fernández Fernández - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1904-08-31 en Villarcebollin, Ibias
+Comentario: Algo malencarado pero con buen corazón.
+      </description>
+      <Point>
+        <coordinates>
+          -6.846432205152315,43.02380614230789,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="AquilinoFernándezFernández_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Aquilino Fernández Fernández - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1955-02-09 en Villarcebollin, Ibias
+Comentario: Algo malencarado pero con buen corazón.
+      </description>
+      <Point>
+        <coordinates>
+          -6.84611255423612,43.023519343630525,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="PlacerÁlvarezÁlvarez_nacimiento">
+      <name>
+        Placer Álvarez Álvarez - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1906-05-23 en Cecos, Ibias
+Comentario: Responsable, trabajadora y tímida.
+      </description>
+      <Point>
+        <coordinates>
+          -6.854173047972431,43.022477918410196,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="PlacerÁlvarezÁlvarez_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Placer Álvarez Álvarez - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1961-12-15 en Cangas del Narcea, Asturias
+Comentario: Responsable, trabajadora y tímida.
+      </description>
+      <Point>
+        <coordinates>
+          -6.542017645912541,43.16569239748837,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="RosarioIsabeldelaFuenteIturralde_nacimiento">
+      <name>
+        Rosario Isabel de la Fuente Iturralde - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1967-06-03 en Avilés
+Comentario: La mejor enfermera.
+      </description>
+      <Point>
+        <coordinates>
+          -5.935304432607002,43.551985272877374,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="AntoniodelaFuenteLópez_nacimiento">
+      <name>
+        Antonio de la Fuente López - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1940-05-19 en Godina, Pravia
+Comentario: Peculiar personaje donde los haya
+      </description>
+      <Point>
+        <coordinates>
+          -6.175972988159606,43.506298200502684,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JosedelaFuenteRodríguez_nacimiento">
+      <name>
+        Jose de la Fuente Rodríguez - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1919-08-31 en Godina, Pravia
+Comentario: Luchador en la guerra.
+      </description>
+      <Point>
+        <coordinates>
+          -6.177491978006931,43.506545535292595,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="JosedelaFuenteRodríguez_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Jose de la Fuente Rodríguez - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1960-02-09 en Godina, Pravia
+Comentario: Luchador en la guerra.
+      </description>
+      <Point>
+        <coordinates>
+          -6.171459515800845,43.509246035194955,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="RosarioLópezLópez_nacimiento">
+      <name>
+        Rosario López López - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1923-05-23 en Selgas, Pravia
+Comentario: Siempre con la comedia por delante.
+      </description>
+      <Point>
+        <coordinates>
+          -6.159291915291246,43.48276397989447,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="RosarioLópezLópez_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Rosario López López - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1997-10-12 en Avilés, Asturias
+Comentario: Siempre con la comedia por delante.
+      </description>
+      <Point>
+        <coordinates>
+          -5.935721494266078,43.55189026763178,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="EmiliaCristinaIturraldeMenéndez_nacimiento">
+      <name>
+        Emilia Cristina Iturralde Menéndez - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1943-06-21 en La Fenosa, Cudillero
+Comentario: Siempre dispuesta a ayudar
+      </description>
+      <Point>
+        <coordinates>
+          -6.182398577331694,43.53049690884904,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="CarlosIturraldeHidalgo_nacimiento">
+      <name>
+        Carlos Iturralde Hidalgo - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1920-11-11 en San Juan de Piñera, Cudillero
+Comentario: Un gran y apuesto padre.
+      </description>
+      <Point>
+        <coordinates>
+          -6.164093763794509,43.5481080716331,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="CarlosIturraldeHidalgo_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Carlos Iturralde Hidalgo - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1953-07-03 en La Fenosa, Cudillero
+Comentario: Un gran y apuesto padre.
+      </description>
+      <Point>
+        <coordinates>
+          -6.1829604085378245,43.53312518041954,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="CarolaMenéndezLago_nacimiento">
+      <name>
+        Carola Menéndez Lago - Nacimiento
+      </name>
+      <styleUrl>
+        #My_Style_Nacimiento
+      </styleUrl>
+      <description>
+        Nació el día 1923-05-23 en La Fenosa, Cudillero
+Comentario: Una vida dura no borró su sonrisa.
+      </description>
+      <Point>
+        <coordinates>
+          -6.183468200018604,43.533255040984024,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="CarolaMenéndezLago_fallecimiento">
+      <styleUrl>
+        #My_Style_Fallecimiento
+      </styleUrl>
+      <name>
+        Carola Menéndez Lago - Fallecimiento
+      </name>
+      <description>
+        Falleció el día 1997-10-12 en Pravia, Asturias
+Comentario: Una vida dura no borró su sonrisa.
+      </description>
+      <Point>
+        <coordinates>
+          -6.11030449429328,43.48728350585535,0.0
+					
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

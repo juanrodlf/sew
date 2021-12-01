@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Bert Bos</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <meta name=author content="Juan Rodríguez de la Fuente" />
+    <meta name=description content="Página web dedicada a Bert Bos." />
+    <meta name="keywords" content="bert,bos,neerlandés,estilo,hojas,css,html,utilidad" />
+    <script src="Ejercicio7.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bert Bos</h1>
+    </header>
+    
+    <h2>Biografía</h2>
+
+    <main>
+        <p>Bienvenid@ a la Web dedicada a Bert Bos, científico de la computación neerlandés reconocido especialmente
+            como uno de los autores de la primera especificación de hojas de estilo en cascada. </p>
+        <img src="multimedia/bert_bos_trabajando.jpg" alt="Bert Bos trabajando intensamente" />
+        <h3>Trayectoria profesional</h3>
+        <h4>Estudios</h4>
+        <p>
+            Bert Bos estudió matemáticas en la Universidad de Groningen, y se doctoró en el año 1993.
+        </p>
+        <h4>Primeros trabajos</h4>
+        <p>
+            Al año siguiente, Bert trabajó en el desarrollo de Argo, un navegador Web que pretendía incluir un sistema
+            propio con el fin de aplicar estilos en páginas web.
+            Justo en ese mismo año, Håkon Wium Lie publicó el primer borrador de la especificación de hojas de estilo en
+            cascada, por lo cual Bert contactó con él para
+            desarrollar conjuntamente en las hojas de estilo.
+        </p>
+        <h4>Trabajo profesional</h4>
+        <h5>World Wide Web Consortium</h5>
+        <p>
+            En 1995, Bert se unió al World Wide Web Consortium, creando y ejerciendo de líder en el grupo de trabajo que
+            tenía como fin la internacionalización de los
+            formatos y protocolos del World Wide Web. A finales de ese mismo año, este consorcio creó un grupo de
+            trabajo dedicado al desarollo de HTML, en el que Bos
+            trabajaría especializándose en el campo de las hojas de estilo.
+        </p>
+        <h5>Hohas de estilo en cascada</h5>
+        <p>
+            El 17 de diciembre de 1996 publica junto a Håkon Wium Lie la primera especifación de hojas de estilo en
+            cascada.
+        </p>
+        <img src="multimedia/bert_bos_uniovi.jpg" alt="Bert Bos en la universidad de Oviedo" />
+        <h5>Otras aportaciones</h5>
+        <p>
+            Bert se unió como editor al grupo de trabajo específico para hojas de estilo en febrero de 1997, fecha de su
+            creación. El grupo se encargaba de las versiones
+            siguientes de la especificación. Bos es uno de los editores de las versiones 2, 2.1 y 3.
+        </p>
+        <h4>Actualidad</h4>
+        <p>
+            Actualmente lidera el grupo de trabajo dedicado a las hojas de estilo y el dedicado a MathML.
+        </p>
+
+        <label for="input">Texto a añadir:</label>
+        <input type="text" id="input" name="input" />
+        <button onclick="ej7.anadirTexto()">Añadir texto al párrafo</button>
+
+        <h3>Multimedia</h3>
+        <p>
+            Aquí dejo un pequeño fragmento de una conferencia impartida por Bert Bos en París, en el año 2014, con el
+            título "A handful of Typographic Challenges".
+        </p>
+        <video controls>
+            <source src="multimedia/bert_bos_video.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <p>
+            Para escuchar la conferencia al completo, puedes utilizar el siguiente audio.
+        </p>
+        <audio controls>
+            <source src="multimedia/bert_bos_audio.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+        <h2>Publicaciones de Bert Bos</h2>
+
+        <ul>
+            <li lang="en">Rapid user interface prototyping with the script language first. Tesis, University of
+                Groningen (1993)</li>
+            <li lang="en">The significance of user intrerfaces for historical software. Presentación (1993)</li>
+            <li lang="en">An information infrastructure for a faculty of arts. Report (1993)</li>
+            <li lang="en">Cascading Style Sheets - designing for the Web (2005)</li>
+            <li lang="en">Ensayo "Why 'variables' in CSS are harmful"</li>
+            <li lang="en">Ensayo "What is a good standard?"</li>
+            <li lang="en">Ensayo (inacabado) "Web applications"</li>
+            <li lang="en">Software for a simpler variant of XML</li>
+        </ul>
+
+        <label for="inputLista">Texto a añadir:</label>
+        <input type="text" id="inputLista" name="input" />
+        <button onclick="ej7.anadirPublicacion()">Añadir publicación a la lista</button>
+        <button onclick="ej7.eliminarPublicacion()">Eliminar última publicación</button>
+
+        <h2>Creaciones de Bert Bos</h2>
+
+        <table>
+            <caption>
+                Algunos programas para HTML y otras utilidades.
+            </caption>
+            <tr>
+                <th>Título</th>
+                <th>Lenguaje</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Utilidad para HTML</td>
+                <td>C</td>
+                <td>Puede numerar 'headings' en HTML, crear una tabla de contenidos, extraer elementos,
+                    'pretty-printing', etc.</td>
+            </tr>
+            <tr>
+                <td>poxhtml</td>
+                <td>Perl</td>
+                <td>Convierte archivos XHTML a PO, los traduce, y los convierte de nuevo a XHTML.</td>
+            </tr>
+            <tr>
+                <td>hcalproxy</td>
+                <td>C</td>
+                <td>Se ejecuta como un proxy y convierte el microformato 'hCalendar' a 'iCalendar'.</td>
+            </tr>
+            <tr>
+                <td>ical2html</td>
+                <td>C</td>
+                <td>Crea un calendario en una tabla HTML a partir de un archivo 'iCalendar'. También incluye
+                    'icalfilter' e 'icalmerge', para extraer eventos y fusionar múltiples archivos 'iCalendar'.</td>
+            </tr>
+            <tr>
+                <td>shuffle</td>
+                <td>C</td>
+                <td>Mezcla las líneas de un archivo. Hace más o menos lo contrario que 'sort'.</td>
+            </tr>
+            <tr>
+                <td>progress</td>
+                <td>C</td>
+                <td>Copia la entrada a la salida mientras que muestra una barra de progreso.</td>
+            </tr>
+            <tr>
+                <td>plan2vcs</td>
+                <td>Perl</td>
+                <td>Convierte formato plano a 'vCalendar' (usando 'korganizer')</td>
+            </tr>
+            <tr>
+                <td>mnbftosch.pl</td>
+                <td>Perl</td>
+                <td>Permite definir un formato basado en XML usando una gramática de contexto libre. Coge la gramática y
+                    genera un esquema XML equivalente.</td>
+            </tr>
+            <tr>
+                <td>htmldiff</td>
+                <td>C</td>
+                <td>Compara dos archivos HTML y destaca las diferencias entre sí.</td>
+            </tr>
+            <tr>
+                <td>unsign.awk/sign.awk</td>
+                <td>GNU AWK</td>
+                <td>Puede eliminar la firma digital de un mensaje de email o añadir una</td>
+            </tr>
+        </table>
+
+        <button onclick="ej7.ocultarMostrarTabla()">Ocultar/Mostrar tabla</button>
+        <button onclick="ej7.ocultarMostrarLista()">Ocultar/Mostrar lista</button>
+        <button onclick="ej7.ocultarMostrarImagenes()">Ocultar/Mostrar imagenes</button>
+        <button onclick="ej7.ocultarMostrarVideo()">Ocultar/Mostrar video</button>
+        <button onclick="ej7.recorrerDOM()">Mostrar info</button>
+        <label for="numFilCol">Número de filas y columnas:</label>
+        <input type="text" id="numFilCol" name="filCol" disabled placeholder="0" />
+        <button onclick="ej7.sumarFilasYColumnas()">Sumar filas y columnas</button>
+    </main>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=https://uo271773.github.io/sew/publicaciones.html"><img
+                src="multimedia/HTML5.png" alt="html5 comprobacion" /></a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://uo271773.github.io/sew/estilo.css"><img
+                src="multimedia/CSS3.png" alt="css3 comprobacion" /></a>
+    </footer>
+
+</body>
+
+
+</html>

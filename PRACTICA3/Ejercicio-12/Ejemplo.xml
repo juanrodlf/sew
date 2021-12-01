@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE arbol>
+		<arbol>
+			<persona nombre="Juan" apellidos="Rodríguez de la Fuente">
+				<datos>
+					<fechaNacimiento>23-03-2000</fechaNacimiento>
+					<lugarNacimiento>Cangas del Narcea</lugarNacimiento>
+					<coordenadasNacimiento>
+						<latitud>43.17434890643061</latitud>
+						<longitud>-6.547817013855572</longitud>
+						<altitud>370</altitud>
+					</coordenadasNacimiento>
+					<fotografia>juanrf.png</fotografia>
+					<video>pueblo_nevado.mp4</video>
+					<comentario>Un chico muy apuesto</comentario>
+				</datos>
+				<persona nombre="Juan José" apellidos="Rodríguez Fernández">
+					<datos>
+						<fechaNacimiento>17-10-1964</fechaNacimiento>
+						<lugarNacimiento>Vega de Rengos, Cangas del Narcea</lugarNacimiento>
+						<coordenadasNacimiento>
+							<latitud>43.04678337435713</latitud>
+							<longitud>-6.615534022365248</longitud>
+							<altitud>580</altitud>
+						</coordenadasNacimiento>
+						<fotografia>juanjrf.png</fotografia>
+						<comentario>Aficionado al esquí</comentario>
+					</datos>
+					<persona nombre="Jose María" apellidos="Rodríguez Díaz">
+						<datos>
+							<fechaNacimiento>31-10-1925</fechaNacimiento>
+							<lugarNacimiento>Villamayor, Ibias</lugarNacimiento>
+							<coordenadasNacimiento>
+								<latitud>43.03280943318538</latitud>
+								<longitud>-6.854484940482702</longitud>
+								<altitud>605</altitud>
+							</coordenadasNacimiento>
+							<fechaFallecimiento>08-09-2001</fechaFallecimiento>
+							<lugarFallecimiento>Cangas del Narcea</lugarFallecimiento>
+							<coordenadasFallecimiento>
+								<latitud>43.17480151854931</latitud>
+								<longitud>-6.547835627064655</longitud>
+								<altitud>370</altitud>
+							</coordenadasFallecimiento>
+							<fotografia>josemaria.png</fotografia>
+							<comentario>Minero y zapatero.</comentario>
+						</datos>
+						<persona nombre="Juan" apellidos="Rodríguez Álvarez">
+							<datos>
+								<fechaNacimiento>25-01-1899</fechaNacimiento>
+								<lugarNacimiento>Caboalles de Abajo, Villablino</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>42.95220673419664</latitud>
+									<longitud>-6.372877802064166</longitud>
+									<altitud>1050</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>09-02-1955</fechaFallecimiento>
+								<lugarFallecimiento>Villamayor, Ibias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.0330721368022</latitud>
+									<longitud>-6.855005290665824</longitud>
+									<altitud>605</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>juanbisa.png</fotografia>
+								<comentario>Muy dicharachero y sonriente.</comentario>
+							</datos>
+						</persona>
+						<persona nombre="Aurora" apellidos="Díaz Nogueiro">
+							<datos>
+								<fechaNacimiento>09-03-1901</fechaNacimiento>
+								<lugarNacimiento>San Antolín, Ibias</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.03746823564629</latitud>
+									<longitud>-6.872995928708796</longitud>
+									<altitud>392</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>15-12-1961</fechaFallecimiento>
+								<lugarFallecimiento>Villamayor, Ibias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.032483973446716</latitud>
+									<longitud>-6.85471024605164</longitud>
+									<altitud>605</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>aurora.png</fotografia>
+								<comentario>De belleza inconmensurable.</comentario>
+							</datos>
+						</persona>
+					</persona>
+					<persona nombre="Balbina" apellidos="Fernández Álvarez">
+						<datos>
+							<fechaNacimiento>19-11-1929</fechaNacimiento>
+							<lugarNacimiento>Villarcebollín, Ibias</lugarNacimiento>
+							<coordenadasNacimiento>
+								<latitud>43.023439015284964</latitud>
+								<longitud>-6.845094424701311</longitud>
+								<altitud>518</altitud>
+							</coordenadasNacimiento>
+							<fechaFallecimiento>13-01-2018</fechaFallecimiento>
+							<lugarFallecimiento>Cangas del Narcea</lugarFallecimiento>
+							<coordenadasFallecimiento>
+								<latitud>43.16562441332177</latitud>
+								<longitud>-6.541088768760746</longitud>
+								<altitud>370</altitud>
+							</coordenadasFallecimiento>
+							<fotografia>balbina.png</fotografia>
+							<comentario>Luchadora y trabajadora empedernida.</comentario>
+						</datos>
+						<persona nombre="Aquilino" apellidos="Fernández Fernández">
+							<datos>
+								<fechaNacimiento>31-08-1904</fechaNacimiento>
+								<lugarNacimiento>Villarcebollin, Ibias</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.02380614230789</latitud>
+									<longitud>-6.846432205152315</longitud>
+									<altitud>518</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>09-02-1955</fechaFallecimiento>
+								<lugarFallecimiento>Villarcebollin, Ibias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.023519343630525</latitud>
+									<longitud>-6.84611255423612</longitud>
+									<altitud>518</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>aquilino.png</fotografia>
+								<comentario>Algo malencarado pero con buen corazón.</comentario>
+							</datos>
+						</persona>
+						<persona nombre="Placer" apellidos="Álvarez Álvarez">
+							<datos>
+								<fechaNacimiento>23-05-1906</fechaNacimiento>
+								<lugarNacimiento>Cecos, Ibias</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.022477918410196</latitud>
+									<longitud>-6.854173047972431</longitud>
+									<altitud>392</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>15-12-1961</fechaFallecimiento>
+								<lugarFallecimiento>Cangas del Narcea, Asturias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.16569239748837</latitud>
+									<longitud>-6.542017645912541</longitud>
+									<altitud>378</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>placer.png</fotografia>
+								<comentario>Responsable, trabajadora y tímida.</comentario>
+							</datos>
+						</persona>
+					</persona>
+				</persona>
+				<persona nombre="Rosario Isabel" apellidos="de la Fuente Iturralde">
+					<datos>
+						<fechaNacimiento>03-06-1967</fechaNacimiento>
+						<lugarNacimiento>Avilés</lugarNacimiento>
+						<coordenadasNacimiento>
+							<latitud>43.551985272877374</latitud>
+							<longitud>-5.935304432607002</longitud>
+							<altitud>267</altitud>
+						</coordenadasNacimiento>
+						<fotografia>rosa.png</fotografia>
+						<comentario>La mejor enfermera.</comentario>
+					</datos>
+					<persona nombre="Antonio" apellidos="de la Fuente López">
+						<datos>
+							<fechaNacimiento>19-05-1940</fechaNacimiento>
+							<lugarNacimiento>Godina, Pravia</lugarNacimiento>
+							<coordenadasNacimiento>
+								<latitud>43.506298200502684</latitud>
+								<longitud>-6.175972988159606</longitud>
+								<altitud>267</altitud>
+							</coordenadasNacimiento>
+							<fotografia>anton.png</fotografia>
+							<comentario>Peculiar personaje donde los haya</comentario>
+						</datos>
+						<persona nombre="Jose" apellidos="de la Fuente Rodríguez">
+							<datos>
+								<fechaNacimiento>31-08-1919</fechaNacimiento>
+								<lugarNacimiento>Godina, Pravia</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.506545535292595</latitud>
+									<longitud>-6.177491978006931</longitud>
+									<altitud>267</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>09-02-1960</fechaFallecimiento>
+								<lugarFallecimiento>Godina, Pravia</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.509246035194955</latitud>
+									<longitud>-6.171459515800845</longitud>
+									<altitud>267</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>jose.png</fotografia>
+								<comentario>Luchador en la guerra.</comentario>
+							</datos>
+						</persona>
+						<persona nombre="Rosario" apellidos="López López">
+							<datos>
+								<fechaNacimiento>23-05-1923</fechaNacimiento>
+								<lugarNacimiento>Selgas, Pravia</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.48276397989447</latitud>
+									<longitud>-6.159291915291246</longitud>
+									<altitud>150</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>12-10-1997</fechaFallecimiento>
+								<lugarFallecimiento>Avilés, Asturias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.55189026763178</latitud>
+									<longitud>-5.935721494266078</longitud>
+									<altitud>50</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>rosario.png</fotografia>
+								<comentario>Siempre con la comedia por delante.</comentario>
+							</datos>
+						</persona>
+					</persona>
+					<persona nombre="Emilia Cristina" apellidos="Iturralde Menéndez">
+						<datos>
+							<fechaNacimiento>21-06-1943</fechaNacimiento>
+							<lugarNacimiento>La Fenosa, Cudillero</lugarNacimiento>
+							<coordenadasNacimiento>
+								<latitud>43.53049690884904</latitud>
+								<longitud>-6.182398577331694</longitud>
+								<altitud>181</altitud>
+							</coordenadasNacimiento>
+							<fotografia>mely.png</fotografia>
+							<comentario>Siempre dispuesta a ayudar</comentario>
+						</datos>
+						<persona nombre="Carlos" apellidos="Iturralde Hidalgo">
+							<datos>
+								<fechaNacimiento>11-11-1920</fechaNacimiento>
+								<lugarNacimiento>San Juan de Piñera, Cudillero</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.5481080716331</latitud>
+									<longitud>-6.164093763794509</longitud>
+									<altitud>185</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>07-03-1953</fechaFallecimiento>
+								<lugarFallecimiento>La Fenosa, Cudillero</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.53312518041954</latitud>
+									<longitud>-6.1829604085378245</longitud>
+									<altitud>181</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>carlos.png</fotografia>
+								<comentario>Un gran y apuesto padre.</comentario>
+							</datos>
+						</persona>
+						<persona nombre="Carola" apellidos="Menéndez Lago">
+							<datos>
+								<fechaNacimiento>23-05-1923</fechaNacimiento>
+								<lugarNacimiento>La Fenosa, Cudillero</lugarNacimiento>
+								<coordenadasNacimiento>
+									<latitud>43.533255040984024</latitud>
+									<longitud>-6.183468200018604</longitud>
+									<altitud>181</altitud>
+								</coordenadasNacimiento>
+								<fechaFallecimiento>12-10-1997</fechaFallecimiento>
+								<lugarFallecimiento>Pravia, Asturias</lugarFallecimiento>
+								<coordenadasFallecimiento>
+									<latitud>43.48728350585535</latitud>
+									<longitud>-6.11030449429328</longitud>
+									<altitud>75</altitud>
+								</coordenadasFallecimiento>
+								<fotografia>carola.png</fotografia>
+								<comentario>Una vida dura no borró su sonrisa.</comentario>
+							</datos>
+						</persona>
+					</persona>
+				</persona>
+			</persona>
+		</arbol>

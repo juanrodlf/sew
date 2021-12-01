@@ -1,0 +1,21 @@
+/* Especificidad 001 */
+body {
+    background-color: #B6FFFE;
+    color: #490001;
+    font-family: 'Helvetica Neue', sans-serif;
+    /*Familia sans-serif*/
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Especificidad 001 */
+h1, h2, h3, h4 {
+    background-color: #ffc8b6;
+    color: #490001;
+}
+
+section {
+    height: 500px;
+    width: 100%;
+}

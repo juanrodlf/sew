@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" href="MapaGeoJSON.css" />
+    <script src="MapaGeoJSON.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU"></script>
+</head>
+
+<body>
+    <h1 id="header">Visualizador de geojson</h1>
+
+    <label for="archivoTexto"></label>
+    <input type="file" id="archivoTexto" accept=".geojson" onchange="leerArchivo.leerArchivo(this.files);">
+
+    <section>
+        <h2>Seccion</h2>
+    </section>
+
+</body>
+
+</html>

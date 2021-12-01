@@ -1,0 +1,199 @@
+ {
+     "type": "FeatureCollection",
+     "features": [
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.547817013855572,43.17434890643061
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.615534022365248,43.04678337435713
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+        
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.854484940482702,43.03280943318538
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.372877802064166,42.95220673419664
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.872995928708796,43.03746823564629
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.845094424701311,43.023439015284964
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.846432205152315,43.02380614230789
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.854173047972431,43.022477918410196
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.935304432607002,43.551985272877374
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.175972988159606,43.506298200502684
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.177491978006931,43.506545535292595
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.159291915291246,43.48276397989447
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.182398577331694,43.53049690884904
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.164093763794509,43.5481080716331
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        },
+
+        { 
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.183468200018604,43.533255040984024
+                ],
+                "properties": {
+                    "name": "Nacimiento"
+                }
+            }
+        }
+     ]
+ }

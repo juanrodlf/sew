@@ -1,0 +1,160 @@
+/* Especificidad 001 */
+body {
+    background-color: #B6FFFE;
+    color: #490001;
+    font-family: 'Helvetica Neue', sans-serif;
+    /*Familia sans-serif*/
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-rows: 
+        /* 1 */ auto
+        /* 2 */ auto
+        /* 3 */ 1fr
+        /* 4 */ auto;
+}
+
+/* Especificidad 001 */
+header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Especificidad 001 */
+main {
+    grid-row: 3;
+}
+
+/* Especificidad 001 */
+h1, h2, h3, h4 {
+    background-color: #ffc8b6;
+    color: #490001;
+}
+
+/* Especificidad 001 */
+li {
+    list-style-type: square;
+}
+
+/* Especificidad 001 */
+ul {
+    background: #ffc8b6;
+    color: #490001;
+    padding: 2%;
+}
+
+/* Especificidad 002 */
+ul li {
+    margin: 0.2em;
+}
+
+/* Especificidad 001 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Especificidad 002 */
+table td, table th {
+    border: 1px solid #490001;
+    padding: 0.5em;
+}
+
+/* Especificidad 002 */
+table th {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+    background-color: #ffc8b6;
+    color: #490001;
+}
+
+/* Especificidad 001 */
+caption {
+    font-size: larger;
+    font-weight: bold;
+    padding: 1em;
+}
+
+/* Especificidad 001 */
+img {
+    border-radius: 1%;
+    float: right;
+    padding-left: 5%;
+    background-color: #B6FFFE;
+    color: #490001;
+}
+
+/* Especificidad 001 */
+video {
+    width: 100%;
+}
+
+/* Especificidad 011 */
+a:hover {
+    background-color: #B6FFFE;
+    color: #490001;
+}
+
+/* Especificidad 001 */
+a {
+    color: #490001;
+    background-color: #97E4E3;
+}
+
+/* Especificidad 001 */
+nav {
+    grid-row: 1;
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+    border: 1px solid;
+    background-color: #97E4E3;
+    color: #490001;
+}
+
+/* Especificidad 001 */
+form {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+/* Especificidad 011 (excepto select, que es 001) */
+input[type=text], input[type=email], input[type=date], select {
+    width: 100%;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Especificidad 011 */
+input[type=submit] {
+    width: 100%;
+    background-color: #ffc8b6;
+    color: #490001;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Especificidad 001 */
+footer {
+    grid-row: 4;
+}
+
+/* Especificidad 001 */
+button {
+    width: 100%;
+    background-color: #ffc8b6;
+    color: #490001;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
