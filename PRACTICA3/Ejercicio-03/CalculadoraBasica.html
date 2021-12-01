@@ -10,7 +10,8 @@
         <script src="CalculadoraBasica.js"></script>
         <h1>Calculadora Básica</h1>
         <form>
-            <input type="text" disabled>
+            <label for="pantalla">Pantalla</label>
+            <input type="text" id="pantalla" disabled>
             <input type="button" value="mrc" onClick="cal.mrc()">
             <input type="button" value="m-" onClick="cal.mMenos()">
             <input type="button" value="m+" onClick="cal.mMas()">
@@ -31,6 +32,7 @@
             <input type="button" value="." onClick="cal.punto()">
             <input type="button" value="C" onClick="cal.borrar()">
             <input type="button" value="=" onClick="cal.igual()">
+            <input type="submit" value="enviar">
         </form>
         <footer>
             <a href="https://validator.w3.org/nu/#file"> <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>

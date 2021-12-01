@@ -61,3 +61,13 @@ input[type="button"][value="="] {
     background-color: white;
     color: black;
 }
+
+/*Especificidad 011*/
+input[type="submit"]{
+    display: none;
+}
+
+/*Especificidad 001*/
+label {
+    display: none;
+}
