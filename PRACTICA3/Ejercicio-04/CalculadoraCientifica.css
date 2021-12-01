@@ -68,3 +68,13 @@ input[type="button"][value="="] {
 input[type="button"][value="NO"] {
     visibility: hidden;
 }
+
+/*Especificidad 011*/
+input[type="submit"]{
+    display: none;
+}
+
+/*Especificidad 001*/
+label {
+    display: none;
+}

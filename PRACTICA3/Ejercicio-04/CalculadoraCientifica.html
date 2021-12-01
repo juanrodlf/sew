@@ -10,7 +10,8 @@
         <script src="CalculadoraCientifica.js"></script>
         <h1>Calculadora Científica</h1>
         <form>
-            <input type="text" disabled>
+            <label for="pantalla">Pantalla</label>
+            <input type="text" id="pantalla" disabled>
             <input type="button" value="DEG" onClick="cal.deg()">
             <input type="button" value="HYP" onClick="cal.hyp()">
             <input type="button" value="F-E" onClick="cal.fe()">
@@ -64,6 +65,8 @@
             <input type="button" value="0" onClick="cal.digitos(0)">
             <input type="button" value="," onClick="cal.punto()">
             <input type="button" value="=" onClick="cal.igual()">
+
+            <input type="submit" value="enviar">
         </form>
         <footer>
             <a href="https://validator.w3.org/nu/#file"> <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>

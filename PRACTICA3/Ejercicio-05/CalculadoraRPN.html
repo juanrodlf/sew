@@ -11,8 +11,10 @@
         <script src="Calculadora.js"></script>
         <h1>Calculadora RPN</h1>
         <form>
-            <textarea rows='20' disabled></textarea>
-            <input type="text" disabled>
+            <label for="pantalla1">Pantalla1</label>
+            <textarea rows='20' id="pantalla1" disabled></textarea>
+            <label for="pantalla2">Pantalla2</label>
+            <input type="text" id="pantalla2" disabled>
 
             <input type="button" value="sin" onClick="cal.sin()">
             <input type="button" value="cos" onClick="cal.cos()">
@@ -61,6 +63,8 @@
             <input type="button" value="0" onClick="cal.digitos(0)">
             <input type="button" value="," onClick="cal.punto()">
             <input type="button" value="ENTER" onClick="cal.enter()">
+
+            <input type="submit" value="enviar">
         </form>
         <footer>
             <a href="https://validator.w3.org/nu/#file"> <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>
