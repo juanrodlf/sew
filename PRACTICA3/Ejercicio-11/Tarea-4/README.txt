@@ -1,0 +1,1 @@
+Da error en WAVE porque las imágenes generadas por google maps no contienen texto alternativo
