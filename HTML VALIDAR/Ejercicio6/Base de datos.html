@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ejercicio6.css?v=1639846708" />
+    <title>Base de datos</title>
+</head>
+
+<body>
+    <h1>Base de Datos</h1>
+    
+    <h2>Menú:</h2>
+
+    <h3>Crear Base de Datos</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='crearBase' value='Crear base de datos'/>
+    </form>
+
+    <h3>Crear tabla</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='crearTabla' value='Crear tabla'/>
+    </form>
+
+    <h3>Insertar datos</h3>
+
+    <form action='#' method='post'>
+        <label for='id'>ID:</label>
+        <input type='text' name='id' id='id'/>
+
+        <label for='nombre'>Nombre:</label>
+        <input type='text' name='nombre' id='nombre'/>
+
+        <label for='apellidos'>Apellidos:</label>
+        <input type='text' name='apellidos' id='apellidos'/>
+
+        <label for='email'>Email:</label>
+        <input type='text' name='email' id='email'/>
+
+        <label for='telefono'>Teléfono:</label>
+        <input type='text' name='telefono' id='telefono'/>
+
+        <label for='edad'>Edad:</label>
+        <input type='number' name='edad' id='edad'/>
+
+        <label for='sexo'>Sexo:</label>
+        <input type='text' name='sexo' id='sexo'/>
+
+        <label for='nivel'>Nivel informático (0-10):</label>
+        <input type='number' name='nivel' id='nivel'/>
+
+        <label for='tiempo'>Tiempo empleado (segundos):</label>
+        <input type='number' name='tiempo' id='tiempo'/>
+
+        <label for='correcto'>Realización de la tarea (1 - Correcto / 0 - Incorrecto):</label>
+        <input type='number' name='correcto' id='correcto'/>
+
+        <label for='comentarios'>Comentarios:</label>
+        <input type='text' name='comentarios' id='comentarios'/>
+
+        <label for='propuestas'>Propuestas de mejora:</label>
+        <input type='text' name='propuestas' id='propuestas'/>
+
+        <label for='valoracion'>Valoración de la app (0-10):</label>
+        <input type='number' name='valoracion' id='valoracion'/>
+
+        <input type='submit' name='insertarDatos' value='Insertar datos en la tabla'/>
+    </form>
+
+    <h3>Buscar datos (por id, nombre o apellidos)</h3>
+
+    <form action='#' method='post'>
+        <label for='datos'>Búsqueda:</label>
+        <input type='text' name='datos' id='datos'/>
+
+        <input type='submit' name='buscarDatos' value='Eliminar datos del ID indicado'/>
+    </form>
+
+    <h3>Modificar datos</h3>
+
+    <form action='#' method='post'>
+        <label for='idM'>ID:</label>
+        <input type='text' name='id' id='idM'/>
+
+        <label for='nombreM'>Nombre:</label>
+        <input type='text' name='nombre' id='nombreM'/>
+
+        <label for='apellidosM'>Apellidos:</label>
+        <input type='text' name='apellidos' id='apellidosM'/>
+
+        <label for='emailM'>Email:</label>
+        <input type='text' name='email' id='emailM'/>
+
+        <label for='telefonoM'>Teléfono:</label>
+        <input type='text' name='telefono' id='telefonoM'/>
+
+        <label for='edadM'>Edad:</label>
+        <input type='number' name='edad' id='edadM'/>
+
+        <label for='sexoM'>Sexo:</label>
+        <input type='text' name='sexo' id='sexoM'/>
+
+        <label for='nivelM'>Nivel informático:</label>
+        <input type='number' name='nivel' id='nivelM'/>
+
+        <label for='tiempoM'>Tiempo empleado (segundos):</label>
+        <input type='number' name='tiempo' id='tiempoM'/>
+
+        <label for='correctoM'>Realización de la tarea:</label>
+        <input type='number' name='correcto' id='correctoM'/>
+
+        <label for='comentariosM'>Comentarios:</label>
+        <input type='text' name='comentarios' id='comentariosM'/>
+
+        <label for='propuestasM'>Propuestas de mejora:</label>
+        <input type='text' name='propuestas' id='propuestasM'/>
+
+        <label for='valoracionM'>Valoración de la app (0-10):</label>
+        <input type='number' name='valoracion' id='valoracionM'/>
+
+        <input type='submit' name='modificarDatos' value='Modificar datos del ID indicado'/>
+    </form>
+
+    <h3>Eliminar datos</h3>
+
+    <form action='#' method='post'>
+        <label for='idE'>ID</label>
+        <input type='text' name='id' id='idE'/>
+
+        <input type='submit' name='eliminarDatos' value='Eliminar datos del ID indicado'/>
+    </form>
+
+    <h3>Generar informe</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='generarInforme' value='Generar informe'/>
+    </form>
+
+    <h3>Cargar datos de archivo CSV (pruebasUsabilidad.csv)</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='cargarDatos' value='Cargar datos desde archivo CSV'/>
+    </form>
+
+    <h3>Exportar datos a archivo CSV (pruebasUsabilidad.csv)</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='exportarDatos' value='Exportar datos a archivo CSV'/>
+    </form>
+    </body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ejercicio7.css?v=1639846916" />
+    <title>Base de datos</title>
+</head>
+
+<body>
+    <h1>Base de Datos</h1>
+    
+    <h2>Menú:</h2>
+
+    <h3>Crear Base de Datos</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='crearBase' value='Crear base de datos'/>
+    </form>
+
+    <h3>Crear tablas</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='crearTablas' value='Crear tablas'/>
+    </form>
+
+    <h3>Incluir datos predeterminados de archivos csv</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='incluirDatos' value='Añadir datos'/>
+    </form>
+
+    <h3>Ver carreras existentes</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='verDatosCarrera' value='Ver datos'/>
+    </form>
+
+    <h3>Ver asignaturas existentes</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='verDatosAsignaturas' value='Ver datos'/>
+    </form>
+
+    <h3>Ver profesores existentes</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='verDatosProfesores' value='Ver datos'/>
+    </form>
+
+    <h3>Ver relaciones entre asignaturas y carreras</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='verRelacionesAsignaturaCarrera' value='Ver datos'/>
+    </form>
+
+    <h3>Ver relaciones entre profesores y asignaturas</h3>
+
+    <form action='#' method='post'>
+        <input type='submit' name='verRelacionesProfesorAsignatura' value='Ver datos'/>
+    </form>
+
+    <h3>Crear carrera nueva</h3>
+
+    <form action='#' method='post'>
+        <label for='nombreCarrera'>Nombre de la carrera:</label>
+        <input type='text' name='nombreCarrera' id='nombreCarrera'/>
+
+        <input type='submit' name='crearCarrera' value='Crear carrera'/>
+    </form>
+
+    <h3>Crear asignaturas nueva</h3>
+
+    <form action='#' method='post'>
+        <label for='nombreAsignatura'>Nombre de la asignatura:</label>
+        <input type='text' name='nombreAsignatura' id='nombreAsignatura'/>
+
+        <label for='creditos'>Número de créditos:</label>
+        <input type='number' name='creditos' id='creditos'/>
+
+        <input type='submit' name='crearAsignatura' value='Crear asignatura'/>
+    </form>
+
+    <h3>Incluir asignatura en carrera</h3>
+
+    <form action='#' method='post'>
+        <label for='nombreAsignatura2'>Nombre de la asignatura:</label>
+        <input type='text' name='nombreAsignatura' id='nombreAsignatura2'/>
+
+        <label for='nombreCarrera2'>Nombre de la carrera:</label>
+        <input type='text' name='nombreCarrera' id='nombreCarrera2'/>
+
+        <input type='submit' name='relacionarAsignaturaCarrera' value='Incluir asignatura'/>
+    </form>
+
+    <h3>Incluir profesor en asignatura</h3>
+
+    <form action='#' method='post'>
+        <label for='nombreProfesor'>Nombre del profesor:</label>
+        <input type='text' name='nombreProfesor' id='nombreProfesor'/>
+
+        <label for='nombreAsignatura3'>Nombre de la asignatura:</label>
+        <input type='text' name='nombreAsignatura' id='nombreAsignatura3'/>
+
+        <input type='submit' name='relacionarProfesorAsignatura' value='Incluir profesor'/>
+    </form>
+
+    
+    </body>
+
+</html>
