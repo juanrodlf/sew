@@ -1,0 +1,38 @@
+body {
+    background-color: #B6FFFE;
+    color: #490001;
+    font-family: 'Helvetica Neue', sans-serif;
+    /*Familia sans-serif*/
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Especificidad 001 */
+h1, h2 {
+    background-color: #ffc8b6;
+    color: #490001;
+}
+
+/* Especificidad 011 */
+input[type=text] {
+    width: 100%;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Especificidad 011 */
+input[type=submit] {
+    width: 100%;
+    background-color: #ffc8b6;
+    color: #490001;
+    padding: 1em 1.5em;
+    margin: 0.5em 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
